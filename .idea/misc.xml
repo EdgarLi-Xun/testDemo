@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo-parent/pom.xml" />
         <option value="$PROJECT_DIR$/demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-generator/pom.xml" />
       </list>
     </option>
   </component>
