@@ -1,4 +1,4 @@
-package com.edgarli.api;
+package com.edgarli.parent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
