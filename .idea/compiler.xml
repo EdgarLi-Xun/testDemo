@@ -10,9 +10,11 @@
         <module name="demo-api" />
         <module name="demo-generator" />
         <module name="demo-parent" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="demo-api" target="1.8" />
       <module name="demo-generator" target="1.8" />
       <module name="demo-parent" target="1.8" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="demo-api" options="-parameters" />
       <module name="demo-generator" options="-parameters" />
       <module name="demo-parent" options="-parameters" />
